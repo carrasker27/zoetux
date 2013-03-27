@@ -1,0 +1,22 @@
+body {
+	background-color:#000;
+}
+
+.title {
+	color: #FFFAFA;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 75px;
+	font-family: "serif";
+	text-shadow: #4169E1 0.0em 0.1em 0.1em;
+}
+
+
+
+@media screen and (max-width: 400px) {
+	.title{
+		text-shadow: red 0.0em 0.1em 0.1em;
+		font-size: 28px;
+	}
+	
+}
