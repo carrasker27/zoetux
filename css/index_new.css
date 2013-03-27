@@ -2,8 +2,9 @@
 /*Maiden Orange
 Averia+Serif+Libre
 Vast Shadow*/
+
 body{
-	background: #FFFFFF;
+	background: #DCDCDC;
 	color:black;
 	font-family:Arial;
 	font-size:16px;
@@ -128,8 +129,14 @@ nav ul li{
 		margin-left: 30px;
 	}
 	header h1{
-		font-size: 25px
+		font-size: 17px;
+		font-family: Helvetica ;
 	}
+	header img{
+	width: 130px;
+	height: 40px;
+	
+}
 
 	.der{
 		float: none;
@@ -138,4 +145,6 @@ nav ul li{
 	footer{
 		position: inherit;
 	}
+
+
 }
