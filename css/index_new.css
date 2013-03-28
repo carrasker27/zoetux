@@ -3,21 +3,27 @@
 Averia+Serif+Libre
 Vast Shadow*/
 
+article{
+	display: inline-block;
+}
 body{
 	background: #DCDCDC;
-	color:black;
+	/*color:black;
 	font-family:Arial;
-	font-size:16px;
+	font-size:16px;*/
 	margin:0px;
-	padding:0;
-    height:100%;
-	/*text-shadow:1px 1px 0 rgba(0,0,0,.3);*/
+	padding:0px;
+    height: auto;
+    /*height:100%;
+	text-shadow:1px 1px 0 rgba(0,0,0,.3);*/
 }
 
 #container{
 	max-width: 1000px;
-	max-height: auto;
+	height: auto;
 	margin: 0px auto;
+	/*background: blue;*/
+	text-align: center;
 }
 
 /*===============================================================*/
@@ -29,19 +35,22 @@ header{
 	width: 100%;
 	min-height: 90px;
 	margin: 0px;
+
 	padding-top:0px;
 	padding-bottom:0px;
-	text-align: center;
+	/*text-align: center;*/
+	/*background: red;*/
 }
 header img{
 	width: 250px;
-	height: 90px;
+	height: 70px;
 	/*margin-left: 25px; */
 	/*float: left;*/
 	
 }
 header h1{
 	color: #000000;
+	/*height: auto;*/
 	text-align: center;
 	/*float: left;
 	/*margin-left: 20px;*/ 
@@ -51,29 +60,36 @@ header h1{
 .izq{
 	float: left;
 	max-width: 100%;
-	margin: 0px;
+	margin-left: 20px;
+	margin-right: 10px;
+	/*margin: 0px;
+	margin-left: 10px;
 	padding-top:0px;
-	padding-bottom:10px;
-	/*background: blue;*/
+	padding-bottom:10px;*/
+	/*background: white;*/
 
 }
 .der{
 	float: left;
 	max-width: 100%;
-	margin: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*margin: 0px;
 	margin-left: 15px;
 	padding-top:0px;
-	padding-bottom:10px;
-	/*background: red;*/
+	padding-bottom:10px;*/
+	/*background: yellow;*/
 }
 /*===============================================================*/
 
 #information{
 	width: 100%;
+	margin-bottom: 10px;
 	/*height: 800px;
 	background: red;*/
-	margin-top: 0px;
-	margin-bottom:0px;
+	/*margin-top: 0px;
+	margin-bottom:0px;*/
+	/*background: green;*/
 	
 }
 
@@ -84,8 +100,10 @@ header h1{
 footer {
     width:100%;
     height:70px;
-    position:fixed;
+    /*position:fixed;*/
+    position: none;
     bottom:0;
+	
     left:0;
     text-align: center;
 	background: #800000;
@@ -124,22 +142,45 @@ nav ul li{
 	
 }
 
+#boxinformation{
+	font-size:0;
+	texboxinformationt-align:center;
+}
+#boxinformation article{
+	background:#ccc;
+	border:2px solid lightgray;
+	border-radius:5px;
+	color: black;
+	font-size:15px;
+	margin:5px;
+	padding:10px;
+	width:150px;
+}
+#boxinformation img {
+	-webkit-transition:.2s;
+}
+#boxinformation article:hover img{
+	-webkit-transform:scale(1.1);
+}
+
 @media screen and (max-width: 480px) {
 	header img{
 		margin-left: 30px;
+		width: 130px;
+		height: 40px;
 	}
 	header h1{
 		font-size: 17px;
 		font-family: Helvetica ;
 	}
-	header img{
-	width: 130px;
-	height: 40px;
 	
-}
 
 	.der{
 		float: none;
+		margin: 0px;
+	}
+	.izq{
+		margin: 0px;
 	}
 
 	footer{
