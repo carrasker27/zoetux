@@ -1,30 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Poller+One);
-/*Maiden Orange
-Averia+Serif+Libre
-Vast Shadow*/
 
 article{
 	display: inline-block;
 }
 body{
-	background: #DCDCDC;
-	/*color:black;
-	font-family:Arial;
-	font-size:16px;*/
+	/*background: #DCDCDC;*/
+	background: white;
 	margin:0px;
 	padding:0px;
     height: auto;
-    /*height:100%;
-	text-shadow:1px 1px 0 rgba(0,0,0,.3);*/
 }
 
 #container{
 	max-width: 1000px;
 	height: auto;
 	margin: 0px auto;
-	/*background: blue;*/
 	text-align: center;
 }
+
+.mainimage{
+	width: auto;
+}
+
 
 /*===============================================================*/
 /** 
@@ -35,25 +32,15 @@ header{
 	width: 100%;
 	min-height: 90px;
 	margin: 0px;
-
 	padding-top:0px;
 	padding-bottom:0px;
-	/*text-align: center;*/
-	/*background: red;*/
-}
-header img{
-	width: 250px;
-	height: 70px;
-	/*margin-left: 25px; */
-	/*float: left;*/
 	
 }
+
 header h1{
 	color: #000000;
-	/*height: auto;*/
 	text-align: center;
-	/*float: left;
-	/*margin-left: 20px;*/ 
+	display: inline-block;
 	font-family: Poller One;
 	font-size: 30px;
 }
@@ -62,11 +49,7 @@ header h1{
 	max-width: 100%;
 	margin-left: 20px;
 	margin-right: 10px;
-	/*margin: 0px;
-	margin-left: 10px;
-	padding-top:0px;
-	padding-bottom:10px;*/
-	/*background: white;*/
+	/*background: red;*/
 
 }
 .der{
@@ -74,24 +57,17 @@ header h1{
 	max-width: 100%;
 	margin-right: 10px;
 	margin-left: 10px;
-	/*margin: 0px;
-	margin-left: 15px;
-	padding-top:0px;
-	padding-bottom:10px;*/
-	/*background: yellow;*/
 }
 /*===============================================================*/
 
+/*===============================================================*/
+/* class para el contenedor de la informacion de la pagina*/
 #information{
 	width: 100%;
 	margin-bottom: 10px;
-	/*height: 800px;
-	background: red;*/
-	/*margin-top: 0px;
-	margin-bottom:0px;*/
-	/*background: green;*/
-	
 }
+
+/*===============================================================*/
 
 /*===============================================================*/
 /**
@@ -100,12 +76,9 @@ header h1{
 footer {
     width:100%;
     height:70px;
-    /*position:fixed;*/
     position: none;
-    bottom:0;
-	
-    left:0;
-    text-align: center;
+    
+	text-align: center;
 	background: #800000;
 }
 
@@ -115,9 +88,6 @@ footer p{
 	font-family: Helvetica;
 	text-align: center;
 	margin: 0px;
-	/*margin-left: 15px;
-	padding-top:0px;
-	padding-bottom:30px;*/
 }
 footer a{
 	text-decoration: none;
@@ -125,6 +95,11 @@ footer a{
 }
 
 /*===============================================================*/
+
+/*===============================================================*/
+/**
+ nav estilo para el social media en el footer
+ */
 nav{
 	text-align: center;
 }
@@ -142,6 +117,12 @@ nav ul li{
 	
 }
 
+/*===============================================================*/
+
+/*===============================================================*/
+/**
+	 cajas de texto de informacion
+*/
 #boxinformation{
 	font-size:0;
 	texboxinformationt-align:center;
@@ -163,24 +144,26 @@ nav ul li{
 	-webkit-transform:scale(1.1);
 }
 
+/*===============================================================*/
+
+/*===============================================================*/
+/**
+ media screen para el responsive design 
+ */
 @media screen and (max-width: 480px) {
-	header img{
-		margin-left: 30px;
-		width: 130px;
-		height: 40px;
-	}
+	
 	header h1{
 		font-size: 17px;
 		font-family: Helvetica ;
 	}
-	
-
 	.der{
 		float: none;
 		margin: 0px;
 	}
 	.izq{
+		text-align: center;
 		margin: 0px;
+		float: inherit;
 	}
 
 	footer{
@@ -189,3 +172,21 @@ nav ul li{
 
 
 }
+
+@media screen and (max-width: 680px) {
+	.mainimage img{
+		width: 300px;
+		height: 180px;
+	}
+	
+	header h1{
+		color: white;
+	}
+	body{
+		background: #4682B4;
+	}
+	footer{
+		background: black;
+	}
+}
+/*===============================================================*/
