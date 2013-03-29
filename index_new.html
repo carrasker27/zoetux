@@ -8,44 +8,6 @@
 <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="keywords" content="zoetux.com, zoetux, tux, web, paginas web, desarrollo, desarrollo web" />
 <link type="text/css" href="css/index_new.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/global.css">
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
-<script src="js/slides.min.jquery.js"></script>
-<script>
-	$(function(){
-			$('#slides').slides({
-				preload: true,
-				preloadImage: 'slide_imgage/loading.gif',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true,
-				animationStart: function(current){
-					$('.caption').animate({
-						bottom:-35
-					},100);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					$('.caption').animate({
-						bottom:0
-					},200);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
-				slidesLoaded: function() {
-					$('.caption').animate({
-						bottom:0
-					},200);
-				}
-			});
-		});
-</script>
 
 <!--[if lt IE 9]>
 <script type="text/javascript">
@@ -74,36 +36,9 @@
 		
 		<div id="information">
 
-			<!--
-			<div id="slides">
-				<div class="slides_container">
-					<div >
-						
-                        <img src="slide_image/desarrolloSoftware.png" width="950" height="270" alt="Slide 1">
-						<div class="caption" style="bottom:0">
-							<p>Desarrollo de Software</p>
-						</div>
-				    </div>
-					<div >
-						
-                        <img src="slide_image/disenoGrafico.png" width="950" height="270" alt="Slide 2" />
-						<div class="caption">
-							<p>Diseno Grafico</p>
-						</div>
-				    </div>
-					<div >
-						<img src="slide_image/soporteTecnico.png" width="950" height="270" alt="Slide 3" /> 
-						<div class="caption">
-							<p>Soporte Tecnico</p>
-						</div>
-				    </div>
-				</div>
-			</div> 
-			-->
-
 			<section class="mainimage">
 				<article>
-					<img src="slide_image/disenoGrafico.png" alt="informacion de productos">
+					<img src="slide_image/disenoGrafico.png"  alt="informacion de productos" />
 				</article>
 			</section>
 		
