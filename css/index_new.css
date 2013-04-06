@@ -28,7 +28,6 @@ body{
 .mainimage img{
 	max-width: 100%;
 	height: auto;
-
 }
 
 
@@ -62,6 +61,7 @@ header h1{
 	/*background: red;*/
 
 }
+
 .der{
 	float: left;
 	max-width: 100%;
@@ -88,6 +88,8 @@ footer {
     height:70px;
     text-align: center;
 	background: #800000;
+	bottom: 0px;
+	left: 0px;
 }
 
 footer p{

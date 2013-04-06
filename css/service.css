@@ -11,6 +11,11 @@ body{
     height: auto;
 }
 
+span{
+	color: #228B22;
+	font-weight: bold;
+}
+
 #container{
 	max-width: 1000px;
 	height: auto;
@@ -62,8 +67,29 @@ header h1{
 #information{
 	width: 100%;
 	margin-bottom: 10px;
-	background: gray;
 	text-align: left;
+}
+#information p{
+	color: black;
+	font-size: 16px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+.formizq{
+	width: 50%;
+	height: auto;
+	float: left;
+	
+}
+.formizq table{
+	margin-left: 20px;
+}
+
+.formder{
+	width: 50%;
+	height: auto;
+	float: left;	
 }
 
 /*===============================================================*/
@@ -120,15 +146,18 @@ nav ul li{
 
 /*===============================================================*/
 #nav{
-	
+	display: inline-block;
 	height: 100%;
 	width: auto;
 	background: gray;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
 	opacity: 0.7;
-	filter:alpha(opacity=60);
+	/*filter:alpha(opacity=60);*/
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #nav>li{
@@ -146,13 +175,14 @@ nav ul li{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
 	padding: 10px;
 	border-radius: 10px;
+	margin-right: 40px;
 }
 
 #nav>li>a:hover,
 #nav>li.current-menu-item>a{
 	color: #fff;
 	background: #000;
-}*/
+}
 
 
 /* FIN NAVIGATION *****************************************************/
@@ -183,9 +213,25 @@ nav ul li{
 	#nav li{
 		display: block;
 	}
+
 	footer{
-		position: none;
+		position: inherit;
 	}
+	#information p{
+		font-size: 18px;
+	}
+	.formizq{
+		width: auto;
+	float: none;
+		
+	}
+	
+	.formder{
+	width: auto;
+	float: none;
+	margin-left: 15px;
+	
+}
 	
 }
 /*===============================================================*/
