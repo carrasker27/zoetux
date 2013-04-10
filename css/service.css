@@ -3,7 +3,9 @@
 Almendra
 Cinzel
 family=Poller+One*/
-
+article{
+	display: inline-block;
+}
 body{
 	background: white;
 	margin:0px;
@@ -66,14 +68,14 @@ header h1{
 /* class para el contenedor de la informacion de la pagina*/
 #information{
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	text-align: left;
+	
 }
 #information p{
 	color: black;
 	font-size: 16px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-
 }
 
 .formizq{
@@ -91,6 +93,17 @@ header h1{
 	height: auto;
 	float: left;	
 }
+.mainimage{
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+.mainimage img{
+	max-width: 100%;
+	height: auto;
+}
+
 
 /*===============================================================*/
 
@@ -220,6 +233,7 @@ nav ul li{
 	#information p{
 		font-size: 18px;
 	}
+	
 	.formizq{
 		width: auto;
 	float: none;
