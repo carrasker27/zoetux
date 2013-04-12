@@ -9,6 +9,7 @@
 <meta name="keywords" content="zoetux.com, zoetux, tux, web, paginas web, desarrollo, desarrollo web" />
 <link type="text/css" href="css/service.css" rel="stylesheet" />
 <link rel="shortcut icon" href="images/PALOMITA.png">
+
 <script language="javascript">
 function validar_campos(form1)
 {
@@ -57,38 +58,40 @@ function validar_campos(form1)
 				<li><a href="diseno.html">Diseno Web</a></li>
 				<li><a href="desarrollo.html">Desarrollo Web</a></li>
 				<li><a href="ventajas.html">Ventajas y Beneficios</a></li>
-				<!--<li><a href="dudas.html">Dudas</a></li> -->
-				<li class="current-menu-item"><a href="informacion.html">Informacion</a></li>
+				<!--<li class="current-menu-item"><a href="dudas.html">PROMOCION</a></li>-->
+				<li><a href="informacion.html">Informacion</a></li>
+                <!--<li class="current-menu-item"><a href="promocion.html">PROMOCION</a></li>-->
 		</ul>
 
-		<div id="information">
+	  <div id="information">
 			<div class="formizq">
-			<form action="php/sendmail.php" method="post" name="form1" onSubmit = "return validar_campos(this)">
+            <h2><span>Contactanos y ponlo </span><font color="#800000">A PRUEBA</font>!!</h2>
+			<form action="php/sendmail.php?asunto=promocion" method="post" name="form1" onSubmit = "return validar_campos(this)">
 		    	<table>
         			<tr>
             			<td ><p class="parrafos">* Nombre:</p></td>
-            			<td ><input type="text" name="name" size="30" style=" height: 25px"></td>
+            			<td ><input type="text" name="name" size="30" style=" height: 25px" placeholder="Tony Sanchez"></td>
             		</tr>
             		
             		<tr>
             			<td><p class="parrafos">* Correo:</p></td>
-            			<td><input type="email" name="usremail" size="30" style=" height: 25px"></td>
+            			<td><input type="email" name="usremail" size="30" style=" height: 25px" placeholder="tony.sanchez@gmail.com"></td>
             		</tr>
             			
             		<tr>
             			<td><p class="parrafos">* Empresa:</p></td>
-            			<td><input type="text" name="empresa" size="30" style=" height: 25px"></td>
+            			<td><input type="text" name="empresa" size="30" style=" height: 25px" placeholder="Abastecedora de Refacciones"></td>
             		</tr>
 
             		<tr>
             			<td><p class="parrafos">* Telefono:</p></td>
-            			<td><input type="tel" name="telefono" size="30" style=" height: 25px"></td>
+            			<td><input type="tel" name="telefono" size="30" style=" height: 25px" placeholder="81-22-85-23-47"></td>
             		</tr>
 
-		            <tr>
+		            <!--<tr>
         		    	<td><p class="parrafos">* Mensaje:</p></td>
         		    	<td><textarea rows="4" cols="25" name="msg"></textarea></td>
-            		</tr>
+            		</tr>-->
             		
             		<tr>
             			<td></td><td align="right"><input type="submit" value="Enviar" class="submit-button" /></td>
@@ -98,11 +101,16 @@ function validar_campos(form1)
     		</div> 
 
     		<div class="formder">
-    			<h2>Quienes Somos:</h2>
-    			<p><span>Zoetux.com</span> es una micro empresa <span>regiomontana</span> que brinda distintos <span>servicios de Tecnología</span>, especializándose en el <span>desarrollo</span> de <span>paginas web</span> y <span>sistemas de administración</span> 100% personalizados a sus necesidades. Administrar su negocio y darse a conocer en la web es un factor esencial hoy en día.</p>
-
-    			<h2>Datos:</h2>
-    			<p><span>Paginas WEB</span>, <span>Sistemas Administrativos</span>, Correos Personalizados. TODO 100% Personalizado!!. <br/>Contactanos: 81-15-59-97-66 y 81-21-00-18-07</p>
+    			<h2>PROMOCION: <span class="CURSIVA">(ejemplo@TuNegocio.com)</span></h2>
+    			<p><span>Zoetux</span> te <span>OFRECE</span> como <span>PROMOCION</span> el <span>NUEVO</span> servicio de <b>"Correos Personalizados"</b> para que des una excelente <span>IMAGEN</span> y un aspecto de confianza a <span>TU NEGOCIO</span>.<br><br>
+                <span>NUEVO</span> servicio de <b>"Correos Personalizados"</b> a solo <b>$199</b> p/mes.
+                </p>
+    			<h2>QUE SIGNIFICA "Correos Personalizados" ??</h2>
+    			<p><span>Sigues</span> usando hotmail, yahoo, gmail o algun correo publico para TU NEGOCIO?? 
+              <br>
+              <br>
+                <span>Zoetux</span> te ofrece <span>TENER</span> tus propios correos personalizados con el nombre de tu PyME. Ejemplo: <i><b>(ejemplo@TuNegocio.com)</b></i>
+              </p>
     		</div>
 
 		</div>

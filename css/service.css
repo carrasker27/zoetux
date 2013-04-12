@@ -197,6 +197,53 @@ nav ul li{
 	background: #000;
 }
 
+/*Boton de enviar*/
+.submit-button { 
+	background: #57A02C;
+	
+	border:solid 1px #86CC50;
+	
+	border-radius:5px;
+
+		-moz-border-radius: 5px; 
+		
+		-webkit-border-radius: 5px;
+	
+	color:#FFF;
+	
+	cursor:pointer;
+	
+	font-size:13px;
+	
+	margin-left:130px;
+	
+	padding:3px 8px;
+}
+.submit-button:hover { background:#82D051 }
+
+.error {background: #ffcece; border:solid 1px #df8f8f; }
+
+.success {background: #d5ffce; border:solid 1px #9adf8f; }
+
+.error, .success {
+	
+	border-radius:5px;
+
+		-moz-border-radius: 5px; 
+		
+		-webkit-border-radius: 5px;
+		
+	color:#333;
+	
+	padding:9px;
+	
+	margin-bottom:10px;
+}
+
+.CURSIVA {
+	font: italic 18px Georgia, "Times New Roman", Times, serif;;
+}
+
 
 /* FIN NAVIGATION *****************************************************/
 
