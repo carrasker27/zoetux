@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?Grand+Hotel);
+@import url(http://fonts.googleapis.com/css?family=Radley);
+@import url(http://fonts.googleapis.com/css?family=Scada);
 /*Bentham
 Almendra
 Cinzel
@@ -44,14 +45,14 @@ header h1{
 	color: #000000;
 	text-align: center;
 	display: inline-block;
-	font-family: Grand Hotel;
+	font-family: Radley;
 	font-size: 30px;
 
 }
 .izq{
 	float: left;
 	max-width: 100%;
-	margin-left: 20px;
+	margin-left: 80px;
 	margin-right: 10px;
 	/*background: red;*/
 
@@ -60,7 +61,7 @@ header h1{
 	float: left;
 	max-width: 100%;
 	margin-right: 10px;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 /*===============================================================*/
 
@@ -75,7 +76,9 @@ header h1{
 #information p{
 	color: black;
 	font-size: 16px;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	font-family: Scada;
+	margin-left: 5px;
 }
 
 .formizq{
@@ -85,7 +88,7 @@ header h1{
 	
 }
 .formizq table{
-	margin-left: 20px;
+	margin-left: 1px;
 }
 
 .formder{
@@ -159,16 +162,18 @@ nav ul li{
 
 /*===============================================================*/
 #nav{
-	display: inline-block;
+	display: block;
+
+	/*-ms-display: inline-block;*/
 	height: 100%;
 	width: auto;
-	background: gray;
+	background: #008F00;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-ms-border-radius: 5px;
-	opacity: 0.7;
-	/*filter:alpha(opacity=60);*/
+	/*opacity: 0.7;
+	filter:alpha(opacity=60);*/
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -176,25 +181,26 @@ nav ul li{
 #nav>li{
 	display: inline-block;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 
 #nav>li>a{
 	display: inline-block;
 	font-size: 16px;
-	color: #000;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
 	padding: 10px;
 	border-radius: 10px;
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 #nav>li>a:hover,
 #nav>li.current-menu-item>a{
-	color: #fff;
-	background: #000;
+	color: white;
+	background: #00CC00;
 }
 
 /*Boton de enviar*/

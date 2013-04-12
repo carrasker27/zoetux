@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?Grand+Hotel);
+@import url(http://fonts.googleapis.com/css?family=Radley);
 /*Bentham
 Almendra
 Cinzel
@@ -42,23 +42,22 @@ header{
 	margin: 0px;
 	padding-top:0px;
 	padding-bottom:0px;
-	
+
 }
 
 header h1{
 	color: #000000;
 	text-align: center;
 	display: inline-block;
-	font-family: Grand Hotel;
+	font-family: Radley;
 	font-size: 30px;
 
 }
 .izq{
 	float: left;
 	max-width: 100%;
-	margin-left: 20px;
+	margin-left: 80px;
 	margin-right: 10px;
-	/*background: red;*/
 
 }
 
@@ -66,7 +65,7 @@ header h1{
 	float: left;
 	max-width: 100%;
 	margin-right: 10px;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 /*===============================================================*/
 
@@ -136,7 +135,7 @@ nav ul li{
 */
 #boxinformation{
 	font-size:0;
-	texboxinformationt-align:center;
+	/*texboxinformationt-align:center;*/
 }
 #boxinformation article{
 	/*background:white;*/
