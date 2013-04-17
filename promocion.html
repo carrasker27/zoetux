@@ -16,7 +16,7 @@ function validar_campos(form1)
    name=document.form1.name.value
    email = document.form1.usremail.value
    empresa = document.form1.empresa.value
-   msg = document.form1.msg.value
+   //msg = document.form1.msg.value
    
    /*** DEFINE LA SINTAXIS DEL CORREO ELECTRONICO CON EXPRESIONES REGULARES DE JS ***/
    var re  = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/; 
@@ -25,7 +25,7 @@ function validar_campos(form1)
    if(email.length<2) { alert("FAVOR DE ESCRIBIR ALGUN CORREO"); form1.usremail.focus(); return (false); }
    if (!re.test(email)) { alert( "FAVOR DE ESCRIBIR UN CORREO VALIDO"); form1.usremail.focus(); return (false); } 
    if(empresa.length<2) { alert("FAVOR DE ESCRIBIR ALGUNA EMPRESA"); form1.empresa.focus(); return (false); }
-   if(msg.length<5) { alert("FAVOR DE ESCRIBIR UN MENSAJE"); form1.msg.focus(); return (false); }
+   //if(msg.length<5) { alert("FAVOR DE ESCRIBIR UN MENSAJE"); form1.msg.focus(); return (false); }
 }
 </script>
 

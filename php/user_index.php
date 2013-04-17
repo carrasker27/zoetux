@@ -172,7 +172,8 @@
 	<body id="home">
 		<div class="rain">
 			<div class="border start">
-				<form action="user_index2.php" method="post">
+				<form action="user_index2.php" method="post"> 
+					<!--<form action="selfAdmin/index.php" method="post">-->
 					<label for="email">User</label>
 					<input name="email" type="text" placeholder="Email"/>
 					<label for="pass">Password</label>

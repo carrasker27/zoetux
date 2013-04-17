@@ -1,0 +1,1 @@
+[16-Apr-2013 00:08:26 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/zoetuxco/public_html/php/selfAdmin/ctrluser.php on line 79
